@@ -1,0 +1,169 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: white;
+}
+
+.navBar {
+    display: flex;
+    min-height: 15vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    position: relative;
+    padding: 50px
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box2, .box3 {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    transform: translateX(200px)
+}
+
+.banner, .refundImage {
+    max-height: 100%;   
+    background-size: cover;
+
+}
+
+.midnightBanner, .refund {
+    display: flex;
+    position: relative;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: inherit;
+}
+
+.center-left {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.btnShopNow {
+    color: #363636;
+    background: #fff;
+    display: inline-block;
+    color: #fff;
+    background: rgba(255,255,255,0.3);
+    min-width: 20px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-60%, 100%);
+}
+
+p, h2 {
+    text-align: left;
+    font-family: "Canela","Times","Times New Roman",serif;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 5%;
+}
+
+h1 {
+    letter-spacing: 0.035rem;
+    font-weight: 300;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: inherit;
+}
+
+.top-left {
+    display: flex;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    transform: translate(25%, 10%);
+    max-width: 40%;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.featuredIn {
+    font-family: "Canela","Times","Times New Roman",serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 500%;
+    text-align: center;
+}
+
+.pressFeatured {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+    align-items: center;
+    flex-shrink: inherit;
+}
+
+.signUpP {
+    display: block;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    font-weight: 200;
+    color: #363636;
+}
+
+input {
+    font-family: "GT America","Helvetica Neue","Helvetica",sans-serif;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    font-weight: 200;
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-bottom: solid 1px #9B9B9B;
+    padding-bottom: 0.5rem;
+    min-width: 23.72881%;
+    padding-left: 5%;
+}
+
+.btnSignUp {
+    display: inline-block;
+    font-family: "GT America","Helvetica Neue","Helvetica",sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 0.05rem;
+    padding: 1.125rem 2rem;
+    line-height: 1.5rem;
+    background: rgba(255,255,255,0.3);
+    outline: 0;
+    min-width: 15.25424%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+
